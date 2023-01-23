@@ -1,0 +1,19 @@
+html {
+    background: linear-gradient(#87CEEB, #909996);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas {
+    position: absolute;
+    width: 1000;
+    height: 400;
+    top: 0;
+    left: 0;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
